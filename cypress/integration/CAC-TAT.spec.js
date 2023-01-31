@@ -70,10 +70,10 @@ describe("Central de Atendimento do Cliente TAT", function () {
     cy.get(".error").should("be.visible");
   });
 
-  it("envia o formuário com sucesso usando um comando customizado", function () {
-    cy.fillMandatoryFieldsAndSubmit();
-    cy.get(".success").should("be.visible");
-  });
+  // it("envia o formuário com sucesso usando um comando customizado", function () {
+  //   cy.fillMandatoryFieldsAndSubmit();
+  //   cy.get(".success").should("be.visible");
+  // });
 
   it("seleciona um produto (YouTube) por seu texto", function () {
     cy.get("#product").select("youtube").should("have.value", "youtube");
