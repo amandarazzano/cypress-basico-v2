@@ -14,13 +14,13 @@ Execute npm install (ou npm i para a versão curta) para instalar as dependênci
 
 Você pode executar os testes simulando desktop ou mobile viewport.
 
-###Desktop
+### Desktop
 
 Run `npm test` (ou `npm t` para a versão curta) para executar o teste headless no modo desktop viewport.
 
 Ou, run `npm run cy:open` para abrir o Cypress interativo no modo desktop viewport.
 
-###Mobile
+### Mobile
 
 Run `npm test:mobile` para executar o teste no modo headless mobile viewport.
 
